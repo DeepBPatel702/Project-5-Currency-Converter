@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Currency Converter</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- <link rel="stylesheet" href="./normalize.css"> -->
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<h1>Currency Converter</h1>
+	<div class="container">
+		<p>From:</p>
+		<div class="currency">
+			<select id="currency-one">
+				<option value="INR" >INR</option>
+				<option value="USD" selected>USD</option>
+			</select>
+			<input type="number" id="amount-one" placeholder="0" value="1"/>
+		</div>
+		<p class="to">To:</p>
+		<div class="currency">
+			<select id="currency-two">
+				<option value="INR">INR</option>
+				<option value="USD">USD</option>
+			</select>
+			<input type="number" id="amount-two" placeholder="0" value="1"/>
+		</div>
+	</div>
+	<script src="./script.js"></script>
+</body>
+</html>
